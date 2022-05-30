@@ -175,6 +175,7 @@ header ul{
   border: 2px solid black;
   border-radius: 13px;
 }
+/* Video section */
 .video-section{
   display: grid;
   grid-template-rows: 200px 100px;
