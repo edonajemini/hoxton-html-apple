@@ -175,3 +175,63 @@ header ul{
   border: 2px solid black;
   border-radius: 13px;
 }
+.video-section{
+  display: grid;
+  grid-template-rows: 200px 100px;
+
+}
+Video {
+  position: flex;
+  right: 0;
+  bottom: 0;
+  width:auto;
+  width: 100%;
+  height: auto
+}
+
+.overlay {
+  font-size: 50px;
+  display: inline;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.overlay h1{
+  background:transparent;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2rem 3rem 0;
+  mix-blend-mode:color;
+  padding: 5px 15px;
+  text-align:center;
+}
+.overlay h2{
+  background:transparent;
+  font-size: smaller;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2rem 3rem 0;
+  mix-blend-mode:color;
+  padding: 5px 15px;
+  text-align:center;
+}
+ .overlay .stream {
+   list-style: none;
+   color: #000;
+   background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  margin: 2rem 3rem 0;
+  mix-blend-mode:color;
+  padding: 5px 15px;
+  text-align:center;
+  justify-self: center;
+  align-items: center;
+  border: 0px solid white;
+  border-radius: 25px;
+  }
+
+.stream:hover {
+  background: #ddd;
+  color: black;
+}
