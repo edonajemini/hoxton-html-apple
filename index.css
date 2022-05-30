@@ -94,6 +94,7 @@ header ul{
   font-size: 5.6rem;
   line-height: 1.08;
   letter-spacing: 0.005rem;
+  font-weight: 420;
 }
 
 .title-sub-heading {
@@ -119,4 +120,58 @@ header ul{
   color: var(--link-color);
   font-size: 18px;
 }
+/* iphone SE section */
+.iphone_se {
+  display: grid;
+  width: auto;
+  background: url("/images/iphone_se.jpeg");
+  background-size: 500px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: #fbfbfd;
+  padding: 1rem;
+}
 
+.title {
+  color: rgb(30, 28, 28);
+  text-align:center;
+  padding-top: 80px;
+  align-items: flex-start;
+}
+
+.title-heading {
+  font-size: 5.6rem;
+  line-height: 1.08;
+  letter-spacing: 0.005rem;
+  font-weight: 420;
+}
+.title-sub-heading {
+  padding: 10px;
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  font-weight: 350;
+}
+
+.iphone-link-list{
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.iphone-link-item {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 18px;
+}
+.button-se{
+  background-color: white;
+  font-size: 4rem; 
+  border: 2px solid black;
+  border-radius: 13px;
+}
