@@ -12,10 +12,12 @@ html {
 }
 
 a {
-  display: block;
+  display: flex;
   text-decoration: none;
 }
-
+:root {
+  --link-color: #0065cc;
+}
 .container {
   max-width: 98rem;
   margin: 0 auto;
@@ -38,7 +40,7 @@ header ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 -1rem;
+  margin: 0 2rem;
 }
 
 .nav-list_list-mobile {
@@ -69,7 +71,52 @@ header ul{
   height: 4.4rem;
   background: url("images/icons/bag.svg") center no-repeat;
 }
+/* iphone section */
+.iphone {
+  display: grid;
+  width: auto;
+  background: url("/images/Iphone13.jpeg");
+  background-size: 650px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: #fbfbfd;
+  padding: 1rem;
+}
 
+.title {
+  color: rgb(30, 28, 28);
+  text-align: center;
+  padding-top: 80px;
+}
 
+.title-heading {
+  font-size: 5.6rem;
+  line-height: 1.08;
+  letter-spacing: 0.005rem;
+}
 
+.title-sub-heading {
+  padding: 10px;
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  font-weight: 350;
+}
+
+.iphone-link-list{
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.iphone-link-item {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 18px;
+}
 
