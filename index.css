@@ -22,7 +22,7 @@ a {
   max-width: 98rem;
   margin: 0 auto;
   padding: 0 2.2rem;
-}
+}/* Header section */
 header {
   position: fixed;
   top: 0;
@@ -249,39 +249,119 @@ Video {
   gap: 0.5rem;
  
 }
-
+/* Product 1 section */
 .product-item-1 {
   border: 0px solid transpaarent;
   background-image: url(/images/product-1.jpeg);
   background-position:center;
-  display: inline;
-  color: #fbfbfd;
+  display: grid;
+  color: #b1bac5;
   text-align: center;
+  align-items: center;
+  align-content: flex-end;
   font-size: large;
-  position: relative;
+  position: flex;
 }
+.product-item-1 h1{
+  padding: 10px;
+  font-size: 40px;
+}
+.product-item-1 a{
+  padding: 30px;
+ justify-content: center;
+  list-style: none;
+  color: var(--link-color)
+}
+/* Product 2 section */
 .product-item-2 {
   border: 0px solid transpaarent;
   background-image: url(/images/product-2.jpg);
   background-position:center;
+  display: grid;
+  color: #000000;
+  text-align: center;
+  align-items: center;
+  align-content: flex-start;
+  font-size: large;
+  position: flex;
 }
+.product-item-2 p {
+  padding-top: 30px;
+  color: rgb(134, 61, 61);
+  font-size: 20px;
+}
+.product-item-2 h1{
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.product-item-2 h4{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.product-item-2 a{
+  padding: 10px;
+ justify-content: center;
+  list-style: none;
+  color: var(--link-color)
+}
+/* Product 3 section */
 .product-item-3 {
   border: 0px solid transpaarent;
-  background-image: url(/images/product-3.jpg);
-  background-position:center;
+  background-image: url(/images/iphone-13-green.jpeg);
+  background-position:30%;
+  display: grid;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-size: large;
+  position: flex;
 }
+.product-item-3 h1{
+padding: 30px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.product-item-3 h4{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.product_3_link{
+  padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.product-item-3-link{
+  color: var(--link-color);
+}
+/* Product 4 section */
 .product-item-4 {
   border: 0px solid transpaarent;
   background-image: url(/images/product-4.jpg);
-  background-position:center;
+  background-position:60%;
+
 }
+/* Product 5 section */
 .product-item-5 {
   border: 0px solid transpaarent;
   background-image: url(/images/product-5.jpeg);
-  background-position:center;
+  background-position:80%;
 }
+/* Product 6 section */
 .product-item-6 {
   border: 0px solid transpaarent;
   background-image: url(/images/product-6.webp);
-  background-position:center;
+  background-position:50%;
 }
+/* Footer section */
